@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD4A5FF-DD8B-454D-824B-ECC6A9E546D3}|..\\Banco.Aplicacao\\Banco.Aplicacao.csproj|c:\\amauri\\github\\banco\\banco.aplicacao\\negocio\\contacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\entidade\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|solutionrelative:entidade\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CB4418A-24BE-4EB7-A5B6-3E3D9AA92617}|..\\Banco.Console\\Banco.Console.csproj|c:\\amauri\\github\\banco\\banco.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD4A5FF-DD8B-454D-824B-ECC6A9E546D3}|..\\Banco.Aplicacao\\Banco.Aplicacao.csproj|c:\\amauri\\github\\banco\\banco.aplicacao\\negocio\\contapoupanca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\negocio\\deposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|solutionrelative:negocio\\deposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD4A5FF-DD8B-454D-824B-ECC6A9E546D3}|..\\Banco.Aplicacao\\Banco.Aplicacao.csproj|c:\\amauri\\github\\banco\\banco.aplicacao\\negocio\\contapoupancajuros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\negocio\\saque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|solutionrelative:negocio\\saque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\util\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|solutionrelative:util\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\banco.dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|solutionrelative:banco.dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\entidade\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|solutionrelative:entidade\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\entidade\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|solutionrelative:entidade\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\entidade\\lancamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|solutionrelative:entidade\\lancamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\util\\validacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDD0D8E-2089-42CF-96BE-E06B07D9560F}|Banco.Dominio.csproj|solutionrelative:util\\validacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContaCorrente.cs",
+              "DocumentMoniker": "C:\\Amauri\\GitHub\\Banco\\Banco.Aplicacao\\Negocio\\ContaCorrente.cs",
+              "RelativeDocumentMoniker": "..\\Banco.Aplicacao\\Negocio\\ContaCorrente.cs",
+              "ToolTip": "C:\\Amauri\\GitHub\\Banco\\Banco.Aplicacao\\Negocio\\ContaCorrente.cs",
+              "RelativeToolTip": "..\\Banco.Aplicacao\\Negocio\\ContaCorrente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T21:15:35.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContaBancaria.cs",
+              "DocumentMoniker": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Entidade\\ContaBancaria.cs",
+              "RelativeDocumentMoniker": "Entidade\\ContaBancaria.cs",
+              "ToolTip": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Entidade\\ContaBancaria.cs",
+              "RelativeToolTip": "Entidade\\ContaBancaria.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAApwBAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T17:16:45.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Saque.cs",
+              "DocumentMoniker": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Negocio\\Saque.cs",
+              "RelativeDocumentMoniker": "Negocio\\Saque.cs",
+              "ToolTip": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Negocio\\Saque.cs",
+              "RelativeToolTip": "Negocio\\Saque.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T21:22:29.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Deposito.cs",
+              "DocumentMoniker": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Negocio\\Deposito.cs",
+              "RelativeDocumentMoniker": "Negocio\\Deposito.cs",
+              "ToolTip": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Negocio\\Deposito.cs",
+              "RelativeToolTip": "Negocio\\Deposito.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T21:22:28.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Util\\Enums.cs",
+              "RelativeDocumentMoniker": "Util\\Enums.cs",
+              "ToolTip": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Util\\Enums.cs",
+              "RelativeToolTip": "Util\\Enums.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T20:56:05.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContaPoupanca.cs",
+              "DocumentMoniker": "C:\\Amauri\\GitHub\\Banco\\Banco.Aplicacao\\Negocio\\ContaPoupanca.cs",
+              "RelativeDocumentMoniker": "..\\Banco.Aplicacao\\Negocio\\ContaPoupanca.cs",
+              "ToolTip": "C:\\Amauri\\GitHub\\Banco\\Banco.Aplicacao\\Negocio\\ContaPoupanca.cs",
+              "RelativeToolTip": "..\\Banco.Aplicacao\\Negocio\\ContaPoupanca.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T21:14:51.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Amauri\\GitHub\\Banco\\Banco.Console\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Banco.Console\\Program.cs",
+              "ToolTip": "C:\\Amauri\\GitHub\\Banco\\Banco.Console\\Program.cs",
+              "RelativeToolTip": "..\\Banco.Console\\Program.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAYwGsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T21:07:28.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContaPoupancaJuros.cs",
+              "DocumentMoniker": "C:\\Amauri\\GitHub\\Banco\\Banco.Aplicacao\\Negocio\\ContaPoupancaJuros.cs",
+              "RelativeDocumentMoniker": "..\\Banco.Aplicacao\\Negocio\\ContaPoupancaJuros.cs",
+              "ToolTip": "C:\\Amauri\\GitHub\\Banco\\Banco.Aplicacao\\Negocio\\ContaPoupancaJuros.cs",
+              "RelativeToolTip": "..\\Banco.Aplicacao\\Negocio\\ContaPoupancaJuros.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T21:14:43.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Banco.Dominio",
+              "DocumentMoniker": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Banco.Dominio.csproj",
+              "RelativeDocumentMoniker": "Banco.Dominio.csproj",
+              "ToolTip": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Banco.Dominio.csproj",
+              "RelativeToolTip": "Banco.Dominio.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-27T21:15:42.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Endereco.cs",
+              "DocumentMoniker": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Entidade\\Endereco.cs",
+              "RelativeDocumentMoniker": "Entidade\\Endereco.cs",
+              "ToolTip": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Entidade\\Endereco.cs",
+              "RelativeToolTip": "Entidade\\Endereco.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T17:19:52.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Lancamento.cs",
+              "DocumentMoniker": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Entidade\\Lancamento.cs",
+              "RelativeDocumentMoniker": "Entidade\\Lancamento.cs",
+              "ToolTip": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Entidade\\Lancamento.cs",
+              "RelativeToolTip": "Entidade\\Lancamento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T17:22:39.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Entidade\\Cliente.cs",
+              "RelativeDocumentMoniker": "Entidade\\Cliente.cs",
+              "ToolTip": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Entidade\\Cliente.cs",
+              "RelativeToolTip": "Entidade\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T20:57:20.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Validacoes.cs",
+              "DocumentMoniker": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Util\\Validacoes.cs",
+              "RelativeDocumentMoniker": "Util\\Validacoes.cs",
+              "ToolTip": "C:\\Amauri\\GitHub\\Banco\\Banco.Dominio\\Util\\Validacoes.cs",
+              "RelativeToolTip": "Util\\Validacoes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T20:56:06.937Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

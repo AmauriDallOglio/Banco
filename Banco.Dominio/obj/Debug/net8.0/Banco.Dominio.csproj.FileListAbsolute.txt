@@ -1,0 +1,12 @@
+C:\Amauri\GitHub\Banco\Banco.Dominio\bin\Debug\net8.0\Banco.Dominio.deps.json
+C:\Amauri\GitHub\Banco\Banco.Dominio\bin\Debug\net8.0\Banco.Dominio.dll
+C:\Amauri\GitHub\Banco\Banco.Dominio\bin\Debug\net8.0\Banco.Dominio.pdb
+C:\Amauri\GitHub\Banco\Banco.Dominio\obj\Debug\net8.0\Banco.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Amauri\GitHub\Banco\Banco.Dominio\obj\Debug\net8.0\Banco.Dominio.AssemblyInfoInputs.cache
+C:\Amauri\GitHub\Banco\Banco.Dominio\obj\Debug\net8.0\Banco.Dominio.AssemblyInfo.cs
+C:\Amauri\GitHub\Banco\Banco.Dominio\obj\Debug\net8.0\Banco.Dominio.csproj.CoreCompileInputs.cache
+C:\Amauri\GitHub\Banco\Banco.Dominio\obj\Debug\net8.0\Banco.Dominio.sourcelink.json
+C:\Amauri\GitHub\Banco\Banco.Dominio\obj\Debug\net8.0\Banco.Dominio.dll
+C:\Amauri\GitHub\Banco\Banco.Dominio\obj\Debug\net8.0\refint\Banco.Dominio.dll
+C:\Amauri\GitHub\Banco\Banco.Dominio\obj\Debug\net8.0\Banco.Dominio.pdb
+C:\Amauri\GitHub\Banco\Banco.Dominio\obj\Debug\net8.0\ref\Banco.Dominio.dll

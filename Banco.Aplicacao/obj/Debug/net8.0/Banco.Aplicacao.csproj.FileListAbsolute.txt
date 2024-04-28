@@ -1,0 +1,16 @@
+C:\Amauri\GitHub\Banco\Banco.Aplicacao\bin\Debug\net8.0\Banco.Aplicacao.deps.json
+C:\Amauri\GitHub\Banco\Banco.Aplicacao\bin\Debug\net8.0\Banco.Aplicacao.dll
+C:\Amauri\GitHub\Banco\Banco.Aplicacao\bin\Debug\net8.0\Banco.Aplicacao.pdb
+C:\Amauri\GitHub\Banco\Banco.Aplicacao\bin\Debug\net8.0\Banco.Dominio.dll
+C:\Amauri\GitHub\Banco\Banco.Aplicacao\bin\Debug\net8.0\Banco.Dominio.pdb
+C:\Amauri\GitHub\Banco\Banco.Aplicacao\obj\Debug\net8.0\Banco.Aplicacao.csproj.AssemblyReference.cache
+C:\Amauri\GitHub\Banco\Banco.Aplicacao\obj\Debug\net8.0\Banco.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Amauri\GitHub\Banco\Banco.Aplicacao\obj\Debug\net8.0\Banco.Aplicacao.AssemblyInfoInputs.cache
+C:\Amauri\GitHub\Banco\Banco.Aplicacao\obj\Debug\net8.0\Banco.Aplicacao.AssemblyInfo.cs
+C:\Amauri\GitHub\Banco\Banco.Aplicacao\obj\Debug\net8.0\Banco.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Amauri\GitHub\Banco\Banco.Aplicacao\obj\Debug\net8.0\Banco.Aplicacao.sourcelink.json
+C:\Amauri\GitHub\Banco\Banco.Aplicacao\obj\Debug\net8.0\Banco.Ap.7082418C.Up2Date
+C:\Amauri\GitHub\Banco\Banco.Aplicacao\obj\Debug\net8.0\Banco.Aplicacao.dll
+C:\Amauri\GitHub\Banco\Banco.Aplicacao\obj\Debug\net8.0\refint\Banco.Aplicacao.dll
+C:\Amauri\GitHub\Banco\Banco.Aplicacao\obj\Debug\net8.0\Banco.Aplicacao.pdb
+C:\Amauri\GitHub\Banco\Banco.Aplicacao\obj\Debug\net8.0\ref\Banco.Aplicacao.dll
