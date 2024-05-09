@@ -2,6 +2,7 @@
 using Banco.Dominio.Util;
 using System.Text;
 using System.Text.RegularExpressions;
+using static Banco.Dominio.Util.Enums;
 
 namespace Banco.Dominio.Entidade
 {
@@ -17,6 +18,12 @@ namespace Banco.Dominio.Entidade
         public string Senha { get; private set; }
         public decimal Limite { get; private set; }
         public Cliente Cliente { get; init; }
+
+        private TipoConta TipoConta { get; set; }
+ 
+        private double Credito { get; set; }
+        private string Nome { get; set; }
+
         public List<Lancamento> Lancamentos { get; private set; }
 
         public ContaBancaria(Cliente cliente)
@@ -116,6 +123,8 @@ namespace Banco.Dominio.Entidade
 
             return sb.ToString();
         }
+
+
 
 
     }
