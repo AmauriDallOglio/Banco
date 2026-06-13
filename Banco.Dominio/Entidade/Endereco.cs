@@ -4,6 +4,7 @@ namespace Banco.Dominio.Entidade
 {
     public class Endereco
     {
+        public int Id { get; set; }
         public string Logradouro { get; private set; }
         public string CEP { get; private set; }
         public string Cidade { get; private set; }

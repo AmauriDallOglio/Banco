@@ -2,6 +2,7 @@
 {
     public abstract class Lancamento
     {
+        public int Id { get; set; }
         public decimal Valor { get; init; }
         public DateTime Data { get; init; }
         public ContaBancaria Conta { get; init; }

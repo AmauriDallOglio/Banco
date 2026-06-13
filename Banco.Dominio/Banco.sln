@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banco.Api", "..\Banco.Api\B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banco.Infraestrutura", "..\Banco.Infraestrutura\Banco.Infraestrutura.csproj", "{66529753-5093-4F93-8CC2-6D994CE69FB7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nucleo", "Nucleo", "{13CF6D32-739F-4141-BB8C-BBD1E87CA072}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DDD0D8E-2089-42CF-96BE-E06B07D9560F} = {13CF6D32-739F-4141-BB8C-BBD1E87CA072}
+		{1BD4A5FF-DD8B-454D-824B-ECC6A9E546D3} = {13CF6D32-739F-4141-BB8C-BBD1E87CA072}
+		{66529753-5093-4F93-8CC2-6D994CE69FB7} = {13CF6D32-739F-4141-BB8C-BBD1E87CA072}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2D88A032-9DCF-4E4C-8744-1710867231CC}

@@ -4,6 +4,7 @@ namespace Banco.Dominio.Entidade
 {
     public class Cliente
     {
+        public int Id { get; set; }
         public string Nome { get; private set; }
         public string CPF { get; private set; }
         public string RG { get; private set; }

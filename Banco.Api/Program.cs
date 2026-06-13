@@ -1,3 +1,8 @@
+using Banco.Api.Configuracao;
+using Banco.Infraestrutura.Contexto;
+using Banco.Infraestrutura.Repositorios;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,7 +12,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.Carregar(builder.Configuration);
+builder.Services.AddScoped<IBancoRepositorio, BancoRepositorio>();
+
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var contexto = scope.ServiceProvider.GetRequiredService<BancoContexto>();
+    contexto.Database.EnsureCreated();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

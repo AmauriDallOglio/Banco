@@ -4,6 +4,7 @@ namespace Banco.Dominio.Entidade
 {
     public class Conta
     {
+        public int Id { get; set; }
         // Atributos
         private TipoConta TipoConta { get; set; }
         private double Saldo { get; set; }
@@ -44,9 +45,9 @@ namespace Banco.Dominio.Entidade
 
         public void Transferir(double valorTransferencia, Conta contaDestino)
         {
-            if (this.Sacar(valorTransferencia))
+            if (this.SacarSaldo(valorTransferencia))
             {
-                contaDestino.Depositar(valorTransferencia);
+                contaDestino.DepositarConta(valorTransferencia);
             }
         }
 

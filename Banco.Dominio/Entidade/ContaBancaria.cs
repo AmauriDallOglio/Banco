@@ -9,6 +9,7 @@ namespace Banco.Dominio.Entidade
     public abstract class ContaBancaria
     {
 
+        public int Id { get; set; }
         public int NumeroConta { get; init; }
         public int DigitoVerificador { get; init; }
         public decimal Saldo { get; protected set; }

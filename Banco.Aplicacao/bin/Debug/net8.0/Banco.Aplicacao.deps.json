@@ -16,7 +16,10 @@
       },
       "Banco.Dominio/1.0.0": {
         "runtime": {
-          "Banco.Dominio.dll": {}
+          "Banco.Dominio.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
