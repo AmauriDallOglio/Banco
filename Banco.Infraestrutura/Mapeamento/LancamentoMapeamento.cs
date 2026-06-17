@@ -12,7 +12,7 @@ namespace Banco.Infraestrutura.Mapeamento
             builder.HasKey(l => l.Id);
             builder.Property(l => l.Valor).IsRequired();
             builder.Property(l => l.Data).IsRequired();
-            builder.Property(l => l.Tipo).IsRequired().HasMaxLength(50);
+            builder.Property(l => l.).IsRequired().HasMaxLength(50);
 
 
         }
