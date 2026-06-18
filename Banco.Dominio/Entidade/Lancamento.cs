@@ -5,7 +5,13 @@
         public int Id { get; set; }
         public decimal Valor { get; init; }
         public DateTime Data { get; init; }
+        public int ContaBancariaId { get; private set; }
         public ContaBancaria Conta { get; init; }
+
+        protected Lancamento()
+        {
+            Conta = null!;
+        }
 
         public Lancamento(decimal valor, DateTime data, ContaBancaria conta)
         {

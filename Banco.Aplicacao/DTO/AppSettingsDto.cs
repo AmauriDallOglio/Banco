@@ -4,6 +4,7 @@
     {
  
         public ConnectionStringsDto ConnectionStrings { get; set; } = new ConnectionStringsDto();
+        public DatabaseDto Database { get; set; } = new DatabaseDto();
  
     } 
 
@@ -14,5 +15,10 @@
         public string ConexaoServidorQuery { get; set; } = string.Empty;
     }
 
+    public class DatabaseDto
+    {
+        public bool AutoMigrate { get; set; }
+        public bool Reinstall { get; set; }
+    }
  
 }

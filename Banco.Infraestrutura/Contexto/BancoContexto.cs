@@ -1,4 +1,5 @@
 using Banco.Dominio.Entidade;
+using Banco.Dominio.Negocio;
 using Banco.Infraestrutura.Mapeamento;
 using Microsoft.EntityFrameworkCore;
 
@@ -23,6 +24,14 @@ namespace Banco.Infraestrutura.Contexto
             modelBuilder.ApplyConfiguration(new ClienteMapeamento());
             modelBuilder.ApplyConfiguration(new ContaBancariaMapeamento());
             modelBuilder.ApplyConfiguration(new LancamentoMapeamento());
+
+            modelBuilder.Entity<ContaCorrente>()
+                .Property(c => c.ValorTaxaManutencao)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<ContaPoupanca>()
+                .Property(c => c.PercentualRendimento)
+                .HasPrecision(18, 6);
  
         }
     }

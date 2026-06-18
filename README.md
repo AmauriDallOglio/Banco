@@ -21,6 +21,45 @@ Operadores: https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/op
 ValueObject: https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects
 CleanCode: https://balta.io/artigos/clean-code
 
+Inicializacao do banco de dados
+
+A API executa a inicializacao do banco no startup pela classe `Banco.Api/Configuracao/Migracao.cs`.
+
+Comportamento:
+
+- Valida se o banco existe e usa migrations do EF Core para criar ou atualizar o esquema.
+- Executa `Database.Migrate()` automaticamente quando `Database:AutoMigrate` estiver habilitado.
+- Se encontrar tabelas criadas anteriormente por `EnsureCreated()` sem historico em `__EFMigrationsHistory`, registra a migration inicial como baseline para preservar os dados existentes.
+- Executa seed inicial somente quando a tabela `Clientes` estiver vazia.
+- Alteracoes nao destrutivas geradas por migrations, como novas tabelas e novas colunas, sao aplicadas automaticamente.
+- Alteracoes destrutivas detectadas no script, como `DROP TABLE`, `DROP COLUMN`, `ALTER COLUMN` e `TRUNCATE TABLE`, nao sao aplicadas automaticamente. A API gera um script em `Banco.Api/DatabaseScripts` para revisao manual.
+- Todas as operacoes registram logs detalhados com sucesso, avisos e erros.
+
+Configuracao:
+
+```json
+"Database": {
+  "AutoMigrate": true,
+  "Reinstall": false
+}
+```
+
+`AutoMigrate` controla se a API aplica migrations ao iniciar.
+`Reinstall` remove e recria o banco antes de migrar. Use apenas em ambiente local/desenvolvimento, pois apaga dados.
+
+Execucao:
+
+```powershell
+dotnet build Banco.Dominio\Banco.sln
+dotnet run --project Banco.Api\Banco.Api.csproj
+```
+
+Para criar novas migrations:
+
+```powershell
+dotnet ef migrations add NomeDaMigration --project Banco.Infraestrutura\Banco.Infraestrutura.csproj --startup-project Banco.Api\Banco.Api.csproj --context BancoContexto --output-dir Migrations
+```
+
 Pilares da Orientação a Objetos
 
 Abstração

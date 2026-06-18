@@ -6,6 +6,10 @@ namespace Banco.Dominio.Negocio
     {
         public decimal PercentualRendimento { get; private set; }
 
+        private ContaPoupanca()
+        {
+        }
+
         public ContaPoupanca(Cliente cliente) : base(cliente)
         {
 

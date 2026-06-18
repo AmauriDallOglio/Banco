@@ -9,6 +9,16 @@ namespace Banco.Dominio.Entidade
         public string CPF { get; private set; }
         public string RG { get; private set; }
         public Endereco Endereco { get; private set; }
+        public List<ContaBancaria> Contas { get; private set; }
+
+        protected Cliente()
+        {
+            Nome = string.Empty;
+            CPF = string.Empty;
+            RG = string.Empty;
+            Endereco = null!;
+            Contas = new List<ContaBancaria>();
+        }
 
         public Cliente(string nome, string cpf, string rg, Endereco endereco)
         {
@@ -16,6 +26,7 @@ namespace Banco.Dominio.Entidade
             CPF = cpf.ValidaStringVazia();
             RG = rg.ValidaStringVazia();
             Endereco = endereco ?? throw new Exception("Endereço deve ser informado.");
+            Contas = new List<ContaBancaria>();
         }
 
     }

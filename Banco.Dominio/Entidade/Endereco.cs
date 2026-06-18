@@ -10,6 +10,14 @@ namespace Banco.Dominio.Entidade
         public string Cidade { get; private set; }
         public string Estado { get; private set; }
 
+        private Endereco()
+        {
+            Logradouro = string.Empty;
+            CEP = string.Empty;
+            Cidade = string.Empty;
+            Estado = string.Empty;
+        }
+
         public Endereco(string logradouro, string cep, string cidade, string estado)
         {
             Logradouro = logradouro.ValidaStringVazia();

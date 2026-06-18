@@ -17,11 +17,7 @@ builder.Services.AddScoped<IBancoRepositorio, BancoRepositorio>();
 
 var app = builder.Build();
 
-using (var scope = app.Services.CreateScope())
-{
-    var contexto = scope.ServiceProvider.GetRequiredService<BancoContexto>();
-    contexto.Database.EnsureCreated();
-}
+await app.ExecutarMigracaoAsync();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

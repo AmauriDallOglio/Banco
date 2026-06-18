@@ -27,6 +27,7 @@ namespace Banco.Infraestrutura.Mapeamento
                 .WithOne(ca => ca.Cliente)
                 .HasForeignKey(ca => ca.ClienteId)
                 .OnDelete(DeleteBehavior.Cascade);
+            builder.Navigation(c => c.Contas).UsePropertyAccessMode(PropertyAccessMode.Property);
         }
     }
 }

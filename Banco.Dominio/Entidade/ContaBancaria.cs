@@ -18,6 +18,7 @@ namespace Banco.Dominio.Entidade
         public Enums.SituacaoConta Situacao { get; private set; }
         public string Senha { get; private set; }
         public decimal Limite { get; private set; }
+        public int ClienteId { get; private set; }
         public Cliente Cliente { get; init; }
 
         private TipoConta TipoConta { get; set; }
@@ -26,6 +27,14 @@ namespace Banco.Dominio.Entidade
         private string Nome { get; set; }
 
         public List<Lancamento> Lancamentos { get; private set; }
+
+        protected ContaBancaria()
+        {
+            Senha = string.Empty;
+            Cliente = null!;
+            Nome = string.Empty;
+            Lancamentos = new List<Lancamento>();
+        }
 
         public ContaBancaria(Cliente cliente)
         {
@@ -36,6 +45,7 @@ namespace Banco.Dominio.Entidade
             Situacao = Enums.SituacaoConta.Criada;
 
             Cliente = cliente ?? throw new Exception("Cliente deve ser informado.");
+            Lancamentos = new List<Lancamento>();
         }
 
         public void Abrir(string senha)

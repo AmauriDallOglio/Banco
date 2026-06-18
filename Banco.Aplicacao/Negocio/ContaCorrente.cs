@@ -8,6 +8,10 @@ namespace Banco.Dominio.Negocio
         public decimal Limite { get; private set; }
         public decimal ValorTaxaManutencao { get; private set; }
 
+        private ContaCorrente()
+        {
+        }
+
         public ContaCorrente(Cliente cliente, decimal limite) : base(cliente)
         {
             ValorTaxaManutencao = 0.05M;
