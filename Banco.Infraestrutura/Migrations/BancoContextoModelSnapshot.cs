@@ -35,6 +35,12 @@ namespace Banco.Infraestrutura.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
+                    b.Property<DateTime>("DataAlteracao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataCadastro")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasMaxLength(200)
@@ -45,9 +51,47 @@ namespace Banco.Infraestrutura.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
+                    b.Property<DateTime?>("Teste")
+                        .HasColumnType("datetime2");
+
                     b.HasKey("Id");
 
-                    b.ToTable("Clientes", (string)null);
+                    b.ToTable("Cliente", (string)null);
+                });
+
+            modelBuilder.Entity("Banco.Dominio.Entidade.Conta", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<double>("Credito")
+                        .HasPrecision(18, 2)
+                        .HasColumnType("float(18)");
+
+                    b.Property<DateTime>("DataAlteracao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataCadastro")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<double>("Saldo")
+                        .HasPrecision(18, 2)
+                        .HasColumnType("float(18)");
+
+                    b.Property<int>("TipoConta")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Conta", (string)null);
                 });
 
             modelBuilder.Entity("Banco.Dominio.Entidade.ContaBancaria", b =>
@@ -62,6 +106,12 @@ namespace Banco.Infraestrutura.Migrations
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("DataAbertura")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataAlteracao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataCadastro")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("DataEncerramento")
@@ -99,7 +149,7 @@ namespace Banco.Infraestrutura.Migrations
 
                     b.HasIndex("ClienteId");
 
-                    b.ToTable("Contas", (string)null);
+                    b.ToTable("ContaBancaria", (string)null);
 
                     b.HasDiscriminator<string>("Tipo").HasValue("ContaBancaria");
 
@@ -120,6 +170,12 @@ namespace Banco.Infraestrutura.Migrations
                     b.Property<DateTime>("Data")
                         .HasColumnType("datetime2");
 
+                    b.Property<DateTime>("DataAlteracao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataCadastro")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Tipo")
                         .IsRequired()
                         .HasMaxLength(13)
@@ -133,7 +189,7 @@ namespace Banco.Infraestrutura.Migrations
 
                     b.HasIndex("ContaBancariaId");
 
-                    b.ToTable("Lancamentos", (string)null);
+                    b.ToTable("Lancamento", (string)null);
 
                     b.HasDiscriminator<string>("Tipo").HasValue("Lancamento");
 
@@ -195,6 +251,12 @@ namespace Banco.Infraestrutura.Migrations
                                 .HasColumnType("nvarchar(100)")
                                 .HasColumnName("Cidade");
 
+                            b1.Property<DateTime>("DataAlteracao")
+                                .HasColumnType("datetime2");
+
+                            b1.Property<DateTime>("DataCadastro")
+                                .HasColumnType("datetime2");
+
                             b1.Property<string>("Estado")
                                 .IsRequired()
                                 .HasMaxLength(100)
@@ -202,7 +264,8 @@ namespace Banco.Infraestrutura.Migrations
                                 .HasColumnName("Estado");
 
                             b1.Property<int>("Id")
-                                .HasColumnType("int");
+                                .HasColumnType("int")
+                                .HasColumnName("Id");
 
                             b1.Property<string>("Logradouro")
                                 .IsRequired()
@@ -212,7 +275,7 @@ namespace Banco.Infraestrutura.Migrations
 
                             b1.HasKey("ClienteId");
 
-                            b1.ToTable("Clientes");
+                            b1.ToTable("Endereco", (string)null);
 
                             b1.WithOwner()
                                 .HasForeignKey("ClienteId");

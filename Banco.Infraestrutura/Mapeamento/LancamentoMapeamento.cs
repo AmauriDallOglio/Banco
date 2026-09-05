@@ -9,15 +9,13 @@ namespace Banco.Infraestrutura.Mapeamento
     {
         public void Configure(EntityTypeBuilder<Lancamento> builder)
         {
-            builder.ToTable("Lancamentos");
+            builder.ToTable("Lancamento");
             builder.HasKey(l => l.Id);
             builder.Property(l => l.Valor).IsRequired().HasPrecision(18, 2);
             builder.Property(l => l.Data).IsRequired();
             builder.Property(l => l.ContaBancariaId).IsRequired();
 
-            builder.HasDiscriminator<string>("Tipo")
-                .HasValue<Deposito>("Deposito")
-                .HasValue<Saque>("Saque");
+            builder.HasDiscriminator<string>("Tipo").HasValue<Deposito>("Deposito").HasValue<Saque>("Saque");
         }
     }
 }

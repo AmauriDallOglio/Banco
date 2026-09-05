@@ -15,14 +15,14 @@ namespace Banco.Infraestrutura.Repositorios
 
         public async Task<Cliente> AdicionarClienteAsync(Cliente cliente, CancellationToken cancellationToken = default)
         {
-            _contexto.Clientes.Add(cliente);
+            _contexto.Cliente.Add(cliente);
             await _contexto.SaveChangesAsync(cancellationToken);
             return cliente;
         }
 
         public Task<List<Cliente>> ObterClientesAsync(CancellationToken cancellationToken = default)
         {
-            return _contexto.Clientes
+            return _contexto.Cliente
                 .Include(c => c.Contas)
                 .AsNoTracking()
                 .ToListAsync(cancellationToken);

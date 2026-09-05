@@ -11,9 +11,10 @@ namespace Banco.Infraestrutura.Contexto
         {
         }
 
-        public DbSet<Cliente> Clientes => Set<Cliente>();
-        public DbSet<ContaBancaria> Contas => Set<ContaBancaria>();
-        public DbSet<Lancamento> Lancamentos => Set<Lancamento>();
+        public DbSet<Cliente> Cliente => Set<Cliente>();
+        public DbSet<Conta> Conta => Set<Conta>();
+        public DbSet<ContaBancaria> ContaBancaria => Set<ContaBancaria>();
+        public DbSet<Lancamento> Lancamento => Set<Lancamento>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -22,6 +23,7 @@ namespace Banco.Infraestrutura.Contexto
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.ApplyConfiguration(new ClienteMapeamento());
+            modelBuilder.ApplyConfiguration(new ContaMapeamento());
             modelBuilder.ApplyConfiguration(new ContaBancariaMapeamento());
             modelBuilder.ApplyConfiguration(new LancamentoMapeamento());
 

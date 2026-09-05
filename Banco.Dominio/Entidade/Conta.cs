@@ -10,6 +10,8 @@ namespace Banco.Dominio.Entidade
         private double Saldo { get; set; }
         private double Credito { get; set; }
         private string Nome { get; set; }
+        public DateTime DataCadastro { get; private set; }
+        public DateTime DataAlteracao { get; private set; }
 
         // Métodos
         public Conta(TipoConta tipoConta, double saldo, double credito, string nome)
@@ -18,6 +20,8 @@ namespace Banco.Dominio.Entidade
             this.Saldo = saldo;
             this.Credito = credito;
             this.Nome = nome;
+            DataCadastro = DateTime.Now;
+            DataAlteracao = DateTime.Now;
         }
 
         public bool SacarSaldo(double valorSaque)

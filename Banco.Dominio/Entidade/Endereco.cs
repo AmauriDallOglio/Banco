@@ -9,6 +9,8 @@ namespace Banco.Dominio.Entidade
         public string CEP { get; private set; }
         public string Cidade { get; private set; }
         public string Estado { get; private set; }
+        public DateTime DataCadastro { get; private set; }
+        public DateTime DataAlteracao { get; private set; }
 
         private Endereco()
         {
@@ -16,6 +18,8 @@ namespace Banco.Dominio.Entidade
             CEP = string.Empty;
             Cidade = string.Empty;
             Estado = string.Empty;
+            DataCadastro = DateTime.Now;
+            DataAlteracao = DateTime.Now;
         }
 
         public Endereco(string logradouro, string cep, string cidade, string estado)
@@ -24,6 +28,8 @@ namespace Banco.Dominio.Entidade
             CEP = cep.ValidaStringVazia();
             Cidade = cidade.ValidaStringVazia();
             Estado = estado.ValidaStringVazia();
+            DataCadastro = DateTime.Now;
+            DataAlteracao = DateTime.Now;
         }
     }
 }

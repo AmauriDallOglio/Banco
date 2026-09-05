@@ -19,6 +19,7 @@
     {
         public bool AutoMigrate { get; set; }
         public bool Reinstall { get; set; }
+        public bool DeletaDatabase { get; set; }
     }
  
 }

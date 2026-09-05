@@ -9,7 +9,7 @@ namespace Banco.Infraestrutura.Mapeamento
     {
         public void Configure(EntityTypeBuilder<ContaBancaria> builder)
         {
-            builder.ToTable("Contas");
+            builder.ToTable("ContaBancaria");
             builder.HasKey(c => c.Id);
             builder.Property(c => c.NumeroConta).IsRequired();
             builder.Property(c => c.DigitoVerificador).IsRequired();
@@ -21,14 +21,8 @@ namespace Banco.Infraestrutura.Mapeamento
             builder.Property(c => c.Limite).IsRequired().HasPrecision(18, 2);
             builder.Property(c => c.ClienteId).IsRequired();
 
-            builder.HasDiscriminator<string>("Tipo")
-                .HasValue<ContaCorrente>("Corrente")
-                .HasValue<ContaPoupanca>("Poupanca");
-
-            builder.HasMany(c => c.Lancamentos)
-                .WithOne(l => l.Conta)
-                .HasForeignKey(l => l.ContaBancariaId)
-                .OnDelete(DeleteBehavior.Cascade);
+            builder.HasDiscriminator<string>("Tipo").HasValue<ContaCorrente>("Corrente").HasValue<ContaPoupanca>("Poupanca");
+            builder.HasMany(c => c.Lancamentos).WithOne(l => l.Conta).HasForeignKey(l => l.ContaBancariaId).OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

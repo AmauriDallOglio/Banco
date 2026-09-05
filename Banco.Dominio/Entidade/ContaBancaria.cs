@@ -20,6 +20,8 @@ namespace Banco.Dominio.Entidade
         public decimal Limite { get; private set; }
         public int ClienteId { get; private set; }
         public Cliente Cliente { get; init; }
+        public DateTime DataCadastro { get; private set; }
+        public DateTime DataAlteracao { get; private set; }
 
         private TipoConta TipoConta { get; set; }
  
@@ -34,6 +36,8 @@ namespace Banco.Dominio.Entidade
             Cliente = null!;
             Nome = string.Empty;
             Lancamentos = new List<Lancamento>();
+            DataCadastro = DateTime.Now;
+            DataAlteracao = DateTime.Now;
         }
 
         public ContaBancaria(Cliente cliente)
@@ -46,6 +50,8 @@ namespace Banco.Dominio.Entidade
 
             Cliente = cliente ?? throw new Exception("Cliente deve ser informado.");
             Lancamentos = new List<Lancamento>();
+            DataCadastro = DateTime.Now;
+            DataAlteracao = DateTime.Now;
         }
 
         public void Abrir(string senha)
